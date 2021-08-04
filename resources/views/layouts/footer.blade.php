@@ -25,7 +25,7 @@
                                 Comsats University Islamabad<br>
                                 Pakistan<br>
                                 Tel: +92 312 3332224<br>
-                                Email : <a href="#">mygoodbooks@mail.com</a>
+                                Email : <a href="#">mygoodbooks@gmail.com</a>
                             </address>
                         </div>
         

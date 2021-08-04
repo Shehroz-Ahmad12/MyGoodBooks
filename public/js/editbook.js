@@ -1,12 +1,3 @@
-var genreR='{{$bookData[0]->genre}}';
-var select=document.getElementById('genre');
-console.log(genre);
-for(var i=0;i<select.length;i++){
-  if(select.options[i].value===genreR){
-    select.options[i].selected=true;
-  }
-}
-
 
       
       

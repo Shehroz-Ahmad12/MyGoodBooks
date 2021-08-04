@@ -57,31 +57,17 @@
 <br>
 
         <div class="row text-center">
-            <div class="col-6 col-md-3 col-lg-3 ">
-                <div class="thumbnail">
+            <div class="col-12 col-md-3 col-lg-3  ">
+                <div class="thumbnail ml-auto mr-auto">
                     <img class="img" src="images/shehroz.jpeg" alt="" srcset="" >
-                    <div class="caption">
-                        <h6>Shehroz Ahmad</h6>
-                        <h6>SP19-BCS-032</h6>
-                    </div>
                 </div>
                
             </div>
-            <div class="col-6 col-md-3 col-lg-3 order-lg-3 ">
-                <div class="thumbnail float-right">
-                    <img class="img" src="images/basit.jpeg" alt="" srcset="" >
-                    <div class="caption">
-                        <h6>Abdul Basit</h6>
-                        <h6>SP19-BCS-109</h6>
-                    </div>
-                </div>
-              
-            </div>
-
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 order-lg-2 text-center">
-                <h2>About Us</h2>
+            
+            <div class="col-12  col-md-9 col-lg-9 order-lg-2 text-center mt-3">
+                <h2>About Me</h2>
                 <hr>
-                <p>My Good Books is our web engineering project which we made using HTML, CSS, Bootstrap, JavaScript, jQuery, PHP and Laravel Framework. We used mySQL as database to store book data, user and comments. </p>
+                <p>My Good Books is my web development project which I've made using HTML, CSS, Bootstrap, JavaScript, jQuery, PHP and Laravel Framework. I've used mySQL as database to store book data, user and comments. </p>
             </div>
         </div>
         <br>

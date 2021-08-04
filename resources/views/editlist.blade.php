@@ -69,7 +69,7 @@
                   
                   <div class="form-group form-inline">
                     <label for="pages">Pages Read</label>
-                    <input required type="number" style="width=100%" class="form-control ml-3 mr-3" id="pages" name="pages" value=0 min=0  >
+                    <input required type="number" style="width=100%" class="form-control ml-3 mr-3" id="pages" name="pages" value={{$listData[0]->pages_read}} min=0  >
                     <label >out of </label>
                     <label id="tpages" style="margin-left: 5px;" > {{$listData[0]->totalpages}}</label>
                     <p id="invalidpages"></p>
@@ -100,6 +100,11 @@
 
 
 <script>
+      var tpages=$('#tpages').html();
+      var topages=Number(tpages);
+      var pagefield=document.getElementById("pages");
+      pagefield.setAttribute("max", topages);
+
 
 
       var statusR='{{$listData[0]->status}}';
@@ -120,6 +125,10 @@
         }
       }
   
+
+
+
+
 
 </script>
     

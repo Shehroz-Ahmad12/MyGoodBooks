@@ -82,7 +82,7 @@
         @foreach ($books as $book)
           <tr>
             <th scope="row">{{$book->book_id}}</th>
-            <td ><img class="bookimage" src={{ $book->imgurl }} alt=""><a class="text-center" href="">{{ $book->title }}</a> </td>
+            <td ><img class="bookimage" src={{ $book->imgurl }} alt=""><a class="text-center" href="/books/details/{{$book->book_id}}">{{ $book->title }}</a> </td>
             <td>{{ $book->author }}</td>
             <td>{{ $book->genre }}</td>
 

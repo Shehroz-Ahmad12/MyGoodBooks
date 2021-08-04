@@ -90,7 +90,19 @@
  
     <script type="text/javascript" src="{{ URL::asset('js/editbook.js') }}"></script>
 
+<script>
 
+var genreR='{{$bookData[0]->genre}}';
+var select=document.getElementById('genre');
+console.log(genre);
+for(var i=0;i<select.length;i++){
+  if(select.options[i].value===genreR){
+    select.options[i].selected=true;
+  }
+}
+
+
+</script>
 
 </body>
 </html>

@@ -19,8 +19,12 @@
 
 </head>
 <body id="formbody">
-    <div class="container">
-        <div id="mainform">
+<img style="position:relative;" src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1453&q=80" alt="">
+    <div class="container">     
+        <div id="mainform" style="position:absolute; top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;">
             <div id="formheader" ><h3><img src="images/Logo-01.png" ><h3></div>
             <h3 id="heading">Login</h3>
             <form class="mainforms"  id="loginForm" method="post" action="/login">
@@ -48,8 +52,6 @@
                   <div class="text-center mt-3">
                     <a href="#" data-target="#pwdModal" id="forgotPassword" data-toggle="modal">Forgot Password?</a>
                   </div>
-                  
-        
                 </div>
                 
                 
@@ -58,7 +60,7 @@
                   <a href=""><i class="fab fa-facebook-square"></i></a><a href=""><i class="fab fa-twitter-square"></i></a><a href=""><i class="fab fa-google-plus-square"></i></a>
                 
                 </div>
-                <sign style="font-weight: 100; margin-left: 70px; ">Not a member? <a href="/signup">Register</a></sign>
+                <sign style="font-weight: 100;">Not a member? <a href="/signup">Register</a></sign>
                   
               </form>
         </div>
@@ -112,9 +114,7 @@
       </div>
     </div>
   </div>
-  <br>
-  <br>
-  <br>
+
 
 <script type="text/javascript" src="{{ URL::asset('js/login.js') }}"></script>
 

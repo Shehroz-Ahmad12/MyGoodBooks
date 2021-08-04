@@ -1,9 +1,3 @@
-
-      var tpages=$('#tpages').html();
-      var topages=Number(tpages);
-      var pagefield=document.getElementById("pages");
-      pagefield.setAttribute("max", topages);
-
       
       var $editlistForm = $('#editlistform');
       
